@@ -1,14 +1,27 @@
+#intro{
+	border: 2em black;
+}
+.spotlight{
+	background-color: black
+}
+body {
+    background: white url(http://s3.hulkshare.com/song_images/original/b/4/d/b4dce12f2946410e5993e9771da7e604.jpg?dd=1388552400) repeat bottom;
+}
 p{
 	color: blue;
 	background-color: #000000
 	font-family: Comic sans ms;
 	text-transform: uppercase;
+	margin-top: 2em;
+	border-top: black dotted 6px
 }
 td{
 	color: black;
 	font-size: 2em;
 	font-family: Comic sans ms;
 	text-transform: uppercase;
+	margin-top: 2em; 
+	border-top: white dotted .7em
 }
 
 h1, h2, h3 {
@@ -17,4 +30,6 @@ h1, h2, h3 {
 	font-size: 1.5em;
 	font-family: Comic sans ms;
 	text-transform: uppercase; 
+	margin-top: 2em; 
+	border-top: orange dotted .6em
 }
